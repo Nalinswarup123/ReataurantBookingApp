@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.foodhub">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/projectimg_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Hyderabad"
+            android:label="@string/title_activity_hydera"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".BookTable" />
+        <activity
+            android:name=".Mumbai"
+            android:label="@string/title_activity_mumbai"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Bangalore"
+            android:label="@string/title_activity_bangalore"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NewDelhi"
+            android:label="@string/title_activity_new_delhi"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Chandigarh"
+            android:label="@string/title_activity_chandigarh"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".PaymentPage" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".HelpAndSupport"></activity>
+    </application>
+
+</manifest>

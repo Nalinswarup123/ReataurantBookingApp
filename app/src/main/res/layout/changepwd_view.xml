@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ch_pwd"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_marginLeft="25dp"
+        android:id="@+id/change_pwd"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:hint="New Password"
+        />
+    <EditText
+        android:layout_marginLeft="25dp"
+        android:id="@+id/conf_change_pwd"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:hint="Conform Password"
+        />
+
+</LinearLayout>

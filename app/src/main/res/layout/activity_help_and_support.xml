@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpAndSupport"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"/>
+    <View
+        android:id="@+id/divider13"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+    <Button
+        android:text="99999-11111"
+        android:layout_marginTop="0.25dp"
+        android:drawableLeft="@drawable/icon_contact"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:background="@color/creamsonwhite"
+        android:onClick="callUs"/>
+    <Button
+        android:text="99999-22222"
+        android:layout_marginTop="0.25dp"
+        android:drawableLeft="@drawable/icon_contact"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:background="@color/creamsonwhite"
+        android:onClick="callUs"/>
+    <Button
+        android:text="99999-33333"
+        android:layout_marginTop="0.25dp"
+        android:drawableLeft="@drawable/icon_contact"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:background="@color/creamsonwhite"
+        android:onClick="callUs"/>
+    <Button
+        android:text="99999-44444"
+        android:layout_marginTop="0.25dp"
+        android:drawableLeft="@drawable/icon_contact"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:background="@color/creamsonwhite"
+        android:onClick="callUs"/>
+    <Button
+        android:text="99999-55555"
+        android:layout_marginTop="0.25dp"
+        android:drawableLeft="@drawable/icon_contact"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:background="@color/creamsonwhite"
+        android:onClick="callUs"/>
+
+</LinearLayout>

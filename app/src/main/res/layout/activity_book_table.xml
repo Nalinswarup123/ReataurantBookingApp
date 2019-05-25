@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookTable">
+
+    <GridLayout
+        android:id="@+id/grdly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:paddingLeft="15dp">
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="0row: 1     column: 1"
+            android:onClick="cardPosition">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="2 chair table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView> <!-- 1 -->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="1row: 1     column: 2"
+            android:onClick="cardPosition"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:textAlignment="center"
+                    android:text="2 chair table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView> <!-- 2 -->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="2row: 2     column: 1"
+            android:onClick="cardPosition">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="2 chair table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>  <!-- 3 -->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="3row: 2     column: 2"
+            android:onClick="cardPosition">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="2 chair table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>  <!-- 4 -->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="4row: 3     column: 1"
+            android:onClick="cardPosition"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Family Table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>  <!-- 5 -->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="5row: 3     column: 2"
+            android:onClick="cardPosition">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Family Table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>  <!-- 6 -->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="6row: 4     column: 1"
+            android:onClick="cardPosition">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Family Table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>  <!-- 7 -->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="7row: 4     column: 2"
+            android:onClick="cardPosition">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Family Table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>  <!-- 8 -->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="8row: 5     column: 1"
+            android:onClick="cardPosition">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="2 chair table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>  <!-- 9 -->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="9row: 5     column: 2"
+            android:onClick="cardPosition">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="2 chair table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>  <!-- 10 -->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="10row: 6     column: 1"
+            android:onClick="cardPosition">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="2 chair table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>  <!-- 11 -->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="0dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/lightcyan"
+            android:tag="11row: 6     column: 2"
+            android:onClick="cardPosition">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="2 chair table" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>  <!-- 12 -->
+
+
+    </GridLayout>
+
+</LinearLayout>
+

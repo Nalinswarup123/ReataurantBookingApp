@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <EditText
+            android:id="@+id/emailid"
+            android:paddingTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username@gmail.com" />
+
+        <EditText
+            android:id="@+id/pswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailid"
+            android:inputType="textPassword"
+            android:hint="Password"
+            />
+
+        <Button
+            android:id="@+id/lgnbtn"
+            android:layout_below="@+id/pswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Login"
+            android:onClick="onClickLogin"
+            />
+        <TextView
+            android:id="@+id/logntv"
+            android:layout_below="@+id/lgnbtn"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create new account"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="changeFrag"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

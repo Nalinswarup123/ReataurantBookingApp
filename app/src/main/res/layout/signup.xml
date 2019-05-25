@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+
+        <EditText
+            android:id="@+id/txtname"
+            android:paddingTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            />
+        <EditText
+            android:id="@+id/txtmob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_below="@+id/txtname"
+            android:hint="Mobile no" />
+        <EditText
+            android:id="@+id/txtcity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtmob"
+            android:hint="City" />
+        <EditText
+            android:id="@+id/txtcountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtcity"
+            android:hint="Country" />
+
+        <EditText
+            android:id="@+id/regstrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtcountry"
+            android:hint="Username@gmail.com" />
+
+        <EditText
+            android:id="@+id/crtpswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regstrid"
+            android:inputType="textPassword"
+            android:hint="Password" />
+
+        <EditText
+            android:id="@+id/cnfmpswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crtpswd"
+            android:inputType="textPassword"
+            android:hint="Confirm Password" />
+
+        <Button
+            android:id="@+id/sgnbtn"
+            android:layout_below="@+id/cnfmpswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Signup"
+            android:onClick="onClickSignUp"
+            />
+        <TextView
+            android:id="@+id/sgntv"
+            android:layout_below="@+id/sgnbtn"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="changeFrag"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
